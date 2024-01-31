@@ -22,8 +22,8 @@ showChat.addEventListener("click", () => {
 const user = prompt("Enter your name");
  
 var peer = new Peer({
-  host: 'https://we-connect-video.onrender.com',
-  port: 443,
+  host: 'we-connect-video.onrender.com',
+  port: '',
   path: '/peerjs',
   config: {
     'iceServers': [
